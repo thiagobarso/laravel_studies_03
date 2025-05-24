@@ -13,7 +13,7 @@
             <h4 class="text-danger">Este é o Slot!</h4>
         </x-other-card>
     </div> --}}
-    <x-multi-slot>
+    {{-- <x-multi-slot>
         <x-slot:title>Este é o título</x-slot>
         <x-slot:content>Este é o conteúdo</x-slot>
         <x-slot:footer>
@@ -23,5 +23,9 @@
                 <li>Item3</li>
             </ul>
         </x-slot>
-    </x-multi-slot>
+    </x-multi-slot> --}}
+    <h4>Componente Anônimo</h4>
+    <x-alert-card>Primeira mensagem</x-alert-card>
+    <x-alert-card>Segunda mensagem</x-alert-card>
+    <x-alert-card>Terceira mensagem</x-alert-card>
 @endsection
