@@ -1,6 +1,6 @@
 <x-component-layout>
     
-    <x-slot:title>HOME</x-slot>
+    <x-slot:title>CONTACT</x-slot>
     
     <h1>TESTE</h1>
     <ul>
